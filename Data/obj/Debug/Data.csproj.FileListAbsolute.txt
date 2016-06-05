@@ -1,0 +1,12 @@
+C:\Visual Studio 2015\Projects\RetroMVC\Data\bin\Debug\Data.dll.config
+C:\Visual Studio 2015\Projects\RetroMVC\Data\bin\Debug\Data.dll
+C:\Visual Studio 2015\Projects\RetroMVC\Data\bin\Debug\Data.pdb
+C:\Visual Studio 2015\Projects\RetroMVC\Data\bin\Debug\EntityFramework.dll
+C:\Visual Studio 2015\Projects\RetroMVC\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Visual Studio 2015\Projects\RetroMVC\Data\bin\Debug\EntityFramework.xml
+C:\Visual Studio 2015\Projects\RetroMVC\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Visual Studio 2015\Projects\RetroMVC\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Visual Studio 2015\Projects\RetroMVC\Data\obj\Debug\Data.dll
+C:\Visual Studio 2015\Projects\RetroMVC\Data\obj\Debug\Data.pdb
+C:\Visual Studio 2015\Projects\RetroMVC\Data\obj\Debug\Data.Migrations.initial.resources
+C:\Visual Studio 2015\Projects\RetroMVC\Data\obj\Debug\Data.csproj.GenerateResource.Cache

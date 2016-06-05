@@ -1,0 +1,57 @@
+﻿@model List<Data.Entities.Blog>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+    
+        <div class='container'>
+
+            <header class='subheader'>
+                <h1>Retrospectives</h1>
+                <p>Notes from the team retrospectives<a class='js-add-link' href='#'>Add a Retro now!</a></p>
+                <form class='form js-form'>
+                    <label class='form-label' for='form-link-input'>Retro title:</label>
+                    <input class='form-input' type='text' id='form-link-input' />
+                </form>
+            </header>
+
+            <!--  <div class='modal js-modal'>
+                     <div class='modal-media'>
+                       <img src='https://s.gravatar.com/avatar/2f9c4025a3e6d10bf091b6279fb28130?s=500&r=g' alt='' />
+                       <h3 class='modal-media-title'>Dan Denney</h3>
+                     </div>
+                     <div class='modal-content'>
+                       <h3>About Me</h3>
+                       <p>I'm a seriously good copy and paster. Front-end dev for @@codeschool, lover of all things web design/dev related and founder of @@frontendconf.</p>
+            -->
+
+        </div>
+        </div>
+        <div class='modal-overlay js-modal-overlay'></div>
+
+        <ol class='retro'>
+    @foreach (var b in Model)
+    {
+        <li class='retro-item'>
+            <a class='retro-link' href='#'>@b.Title</a>
+            <ul class='retro-meta'>
+                <li class='retro-meta-item'>
+                    <em>Posted by:</em>
+                    <a class='js-show-modal' href='#'>@b.Author</a>
+                </li>
+                <li class='retro-meta-item'>
+                    <a href='#'>2 comments</a>
+                </li>
+                <li class='retro-meta-item'>
+                    <a class='js-like' href='#'>Like this retro!</a>
+                </li>
+                
+
+            </ul>
+        </li>
+    }
+        </ol>
+        </div>
+    </main>
+
