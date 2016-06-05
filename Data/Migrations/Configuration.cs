@@ -25,7 +25,8 @@ namespace Data.Migrations
                 Title = "Liked, Loved & Suggestions"
 
             };
-            blog1.Comments.Add(new Entities.Comment {Text = "lorem ipsum"});
+            
+            //blog1.Comments.Add(new Entities.Comment {Text = "lorem ipsum"});
             context.Blog.Add(blog1);
 
             var blog2 = new Entities.Blog
@@ -35,7 +36,7 @@ namespace Data.Migrations
                 Title = "Liked, Loved & Suggestions"
 
             };
-            blog2.Comments.Add(new Entities.Comment { Text = "lorem ipsum2" });
+            //blog2.Comments.Add(new Entities.Comment { Text = "lorem ipsum2" });
             context.Blog.Add(blog2);
 
             var blog3 = new Entities.Blog
@@ -45,9 +46,8 @@ namespace Data.Migrations
                 Title = "Liked, Loved & Suggestions"
 
             };
-            blog3.Comments.Add(new Entities.Comment { Text = "lorem ipsum3" });
+            //blog3.Comments.Add(new Entities.Comment { Text = "lorem ipsum3" });
             context.Blog.Add(blog3);
-
 
             context.SaveChanges();
             //  This method will be called after migrating to the latest version.
