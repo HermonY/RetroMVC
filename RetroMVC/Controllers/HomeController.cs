@@ -30,5 +30,27 @@ namespace RetroMVC.Controllers
 
             return View();
         }
+
+        public ActionResult Create()
+        {
+            var model = new Data.Entities.Blog();
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Create(Data.Entities.Blog model)
+        {
+            var ctx = new RetroContext();
+            if ( ModelState.IsValid)
+            {
+                ctx.Blog.Add(model);
+                ctx.SaveChanges();
+                return RedirectToAction("Index");
+            }
+           
+            return View(model);
+        }
     }
 }
+
+    
